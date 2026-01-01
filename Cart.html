@@ -15,9 +15,9 @@
 
   
 <!--header-->
-  <header class=" w-full px-6 py-5 flex items-center justify-between text-black font-light bg-transparent hover:bg-white hover:text-black hover:cursor-pointer fixed z-50">
+  <header class=" w-full px-10 py-5 flex items-center justify-between text-black font-light bg-transparent hover:bg-white hover:text-black hover:cursor-pointer absolute z-50">
   
-  <div class="flex items-center space-x-8 text-xs uppercase tracking-widest">
+  <div class="flex items-center space-x-3.5 text-xs uppercase tracking-widest">
     
     <button class="flex items-center space-x-2 hover:opacity-70 transition-opacity">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -35,7 +35,7 @@
   </div>
 
   <div class="justify-content-center">
-    <h1 class="text-2xl md:text-3xl font-medium uppercase">
+    <h1 class="text-2xl md:text-[36px] font-normal uppercase">
       Louis Vuitton
     </h1>
   </div>
@@ -66,97 +66,153 @@
 
 
 
-<!--part 2-->
-<script src="https://cdn.tailwindcss.com"></script>
+<!--part 2
+<script src="https://cdn.tailwindcss.com"></script>-->
 
-<div class="bg-white min-h-screen font-sans text-gray-900 p-4 md:p-12">
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+<div class="bg-white w-full min-h-screen font-sans text-gray-900">
+  
+  <div class="mx-auto grid grid-cols-1 md:grid-cols-2 items-start">
     
-    <div class="relative bg-[#F6F6F6] aspect-square flex items-center justify-center overflow-hidden group">
-      <button class="absolute top-6 left-6 bg-white rounded-full p-2 shadow-sm hover:bg-gray-50 transition">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
+   <!--image side grid col 1-->
+    <div class="flex flex-col">
 
+    <div class="relative bg-[#F6F6F6] aspect-square flex items-center justify-center overflow-hidden group w-full h-full">
       <img 
-        src="https://images.clothes.com/photos/650468946765279f06c1c1f5/1:1/w_1200,h_1200,c_limit/LV-Pouch.jpg" 
+        src="./Cart_images/Cart-1.avif" 
         alt="Key Pouch M" 
-        class="w-4/5 object-contain"
-      />
-      
-      <div class="absolute left-0 top-1/2 -rotate-90 origin-left translate-x-4">
-        <span class="text-[10px] tracking-widest text-gray-400 uppercase border-b border-gray-300 pb-1">Send Feedback</span>
-      </div>
+        class="object-contain"/>
     </div>
 
-    <div class="flex flex-col space-y-8 max-w-md">
+    <div class="relative bg-[#F6F6F6] aspect-square flex items-center justify-center overflow-hidden group w-full h-full">
+      <img 
+        src="./Cart_images/Cart-2.avif" 
+        alt="Key Pouch M" 
+        class="object-contain"/>
+    </div>
+
+    <div class="relative bg-[#F6F6F6] aspect-square flex items-center justify-center overflow-hidden group w-full h-full">
+      <img 
+        src="./Cart_images/Cart-3.avif" 
+        alt="Key Pouch M" 
+        class="object-contain"/>
+    </div>
+
+    <div class="relative bg-[#F6F6F6] aspect-square flex items-center justify-center overflow-hidden group w-full h-full">
+      <img 
+        src="./Cart_images/Cart-4.avif" 
+        alt="Key Pouch M" 
+        class="object-contain"/>
+    </div>
+
+    </div>
+
+
+
+
+
+    <div class="flex flex-col space-y-8 pt-36 px-40">
+      
+      
       <header class="relative">
         <p class="text-[11px] text-gray-500 uppercase tracking-widest mb-1">M27110</p>
         <div class="flex justify-between items-start">
-          <h1 class="text-2xl font-light tracking-wide">Key Pouch M</h1>
+          <h1 class="text-[17px] font-light">Key Pouch M</h1>
           <button class="text-gray-400 hover:text-black transition">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
             </svg>
           </button>
         </div>
-        <p class="text-lg mt-2">$630.00</p>
+        <p class="text-[15px] mt-2">$630.00</p>
       </header>
 
       <section>
         <div class="flex justify-between items-center mb-3">
-          <span class="text-sm font-medium">Colors</span>
-          <span class="text-sm text-gray-500 italic">Safran Yellow · Out of stock</span>
+          <span class="text-xs">Colors</span>
+          <span class="text-xs text-gray-500 italic">Safran Yellow</span>
         </div>
         <div class="flex space-x-3">
-          <div class="p-1 border border-black cursor-pointer">
-            <div class="w-12 h-12 bg-yellow-500"></div>
-          </div>
+          
           <div class="p-1 border border-transparent hover:border-gray-200 cursor-pointer transition">
-            <div class="w-12 h-12 bg-pink-600"></div>
+            <div class="w-12 h-12 bg-transparent border-black border">
+            <img src="./Cart_images/Cart-1.avif" alt="Key Pouch M" class="object-cover"/>
           </div>
+          </div>
+
           <div class="p-1 border border-transparent hover:border-gray-200 cursor-pointer transition">
-            <div class="w-12 h-12 bg-blue-900"></div>
+            <div class="w-12 h-12 bg-transparent">
+            <img src="./Cart_images/Cart-m-2.avif" alt="Key Pouch M" class="object-cover"/>
           </div>
-        </div>
+          </div>
+
+          <div class="p-1 border border-transparent hover:border-gray-200 cursor-pointer transition">
+            <div class="w-12 h-12 bg-transparent">
+            <img src="./Cart_images/Cart-m-3.avif" alt="Key Pouch M" class="object-cover"/>
+          </div>
+          </div>
+
       </section>
 
       <button class="flex justify-between items-center w-full py-4 border-y border-gray-100 group">
-        <span class="text-sm">Other sizes</span>
+        <span class="text-xs">Other sizes</span>
         <div class="flex items-center space-x-2">
-          <span class="text-sm font-medium">Key Pouch M</span>
+          <span class="text-xs font-medium">Key Pouch M</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
         </div>
       </button>
 
-      <div class="space-y-3">
-        <button class="w-full bg-black text-white py-5 rounded-full font-medium tracking-wide hover:bg-zinc-800 transition">
-          Notify Me
+      <div class="flex flex-col gap-3 items-center bg-white">
+        <button class="w-full bg-black text-white text-sm py-4 rounded-full font-medium tracking-wide hover:bg-zinc-800 transition">
+          Place in Cart
         </button>
-        <button class="w-full bg-white text-black py-5 border border-gray-900 rounded-full font-medium tracking-wide hover:bg-gray-50 transition">
-          Contact a Client Advisor
-        </button>
+        <span class="text-sm border-black border-b ">Contact an Advisor</span>
+        <p class="text-sm mt-3">Complimentary Standard Delivery or Collect-in-Store</p>
       </div>
 
-      <article class="text-sm leading-relaxed text-gray-600">
+      <article class="text-xs leading-relaxed text-black">
         <p class="mb-2">
-          This Key Pouch M is offered in a seasonal shade, adding a vibrant pop of color to any look. Crafted from Monogram Heritage canvas, it is adorned with a silver-toned chain...
+  fered in a seasonal shade, adding a vibrant pop of color to any look. Crafted from Monogram Heritage canvas, it is adorned with a silver-toned chain...
         </p>
         <button class="underline text-black font-medium">Read more</button>
       </article>
 
       <div class="border-t border-gray-100">
+        
         <div class="flex justify-between items-center py-5 border-b border-gray-100 cursor-pointer">
-          <span class="text-sm uppercase tracking-widest">Sustainability</span>
-          <span class="text-xl font-light">+</span>
+          <span class="text-xs">Sustainability</span>
+          <span class="text-xl font-medium">+</span>
         </div>
+
         <div class="flex justify-between items-center py-5 border-b border-gray-100 cursor-pointer">
-          <span class="text-sm uppercase tracking-widest">Product Care</span>
-          <span class="text-xl font-light">+</span>
+          <span class="text-xs">Product Care</span>
+          <span class="text-xl font-medium">+</span>
         </div>
+
+        <div class="flex justify-between items-center py-5 border-b border-gray-100 cursor-pointer">
+          <span class="text-xs">In-Store Service</span>
+          <span class="text-xl font-medium">+</span>
+        </div>
+
+
+<div class=" flex flex-col gap-2 mt-3.5">
+        <div class="flex justify-between items-center cursor-pointer">
+          <span class="text-xs">Delivery & Returns</span>
+          <span class="text-xl font-medium">></span>
+        </div>
+
+        <div class="flex justify-between items-center cursor-pointer">
+          <span class="text-xs">Gifting</span>
+          <span class="text-xl font-medium">></span>
+        </div>
+
+</div>
+
+
+
+
+
       </div>
     </div>
 
@@ -165,9 +221,11 @@
 
 
 
-
-
-
+<section class="bg-white text-sm text-black my-14">
+  <div class="px-32">
+<span>Recommended for You</span>
+  </div>
+</section>
 
 
 
@@ -262,21 +320,21 @@
 
 
 
+<!--part 4-->
 
-
-<div class="bg-white text-black py-16 px-16 font-sans antialiased relative">
-  <div class="max-w-[1440px] mx-auto">
+<div class="bg-white text-black px-16 font-sans antialiased relative">
+  <div class="max-w-360 mx-auto">
     
-    <nav class="flex items-center space-x-2 text-[11px] tracking-[0.15em] mb-14">
+    <nav class="flex items-center space-x-2 text-[11px] tracking-[">
       <a href="#" class="underline underline-offset-4 decoration-1">LOUIS VUITTON</a>
-      <span class="text-gray-400">-</span>
+      <span class="">-</span>
       <a href="#" class="underline underline-offset-4 decoration-1">WOMEN</a>
-      <span class="text-gray-400">-</span>
+      <span class="">-</span>
       <a href="#" class="underline underline-offset-4 decoration-1">SMALL LEATHER GOODS</a>
-      <span class="text-gray-400">-</span>
+      <span class="">-</span>
       <a href="#" class="underline underline-offset-4 decoration-1">CARD AND KEY HOLDERS</a>
-      <span class="text-gray-400">-</span>
-      <span class="text-gray-500">KEY POUCH M</span>
+      <span class="">-</span>
+      <span class="">KEY POUCH M</span>
     </nav>
     </div>
 
